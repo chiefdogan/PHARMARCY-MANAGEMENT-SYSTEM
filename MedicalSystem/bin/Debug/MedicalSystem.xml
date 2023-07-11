@@ -1,0 +1,421 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MedicalSystem
+</name>
+</assembly>
+<members>
+<member name="T:MedicalSystem.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MedicalSystem.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MedicalSystem.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet.medicineDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet.sellDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet.usersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet.medicineRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet.sellRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet.usersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet.medicineRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet.sellRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet.usersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSetTableAdapters.medicineTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSetTableAdapters.sellTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSetTableAdapters.usersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MedicalSystem.PharmacyDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MedicalSystem.PharmacyDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MedicalSystem.PharmacyDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSetTableAdapters.TableAdapterManager.UpdateAll(MedicalSystem.PharmacyDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.medicineDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.sellDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.usersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.paymentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.transactionDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.medicineRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.sellRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.usersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.paymentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.transactionDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.medicineRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.sellRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.usersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.paymentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1.transactionDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1TableAdapters.medicineTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1TableAdapters.sellTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1TableAdapters.usersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1TableAdapters.paymentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1TableAdapters.transactionDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(MedicalSystem.PharmacyDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(MedicalSystem.PharmacyDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(MedicalSystem.PharmacyDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSet1TableAdapters.TableAdapterManager.UpdateAll(MedicalSystem.PharmacyDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.medicineDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.paymentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.sellDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.transactionDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.usersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.medicineRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.paymentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.sellRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.transactionDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.usersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.medicineRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.paymentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.sellRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.transactionDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2.usersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2TableAdapters.medicineTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2TableAdapters.paymentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2TableAdapters.sellTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2TableAdapters.transactionDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2TableAdapters.usersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(MedicalSystem.PharmacyDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(MedicalSystem.PharmacyDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(MedicalSystem.PharmacyDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MedicalSystem.PharmacyDataSet2TableAdapters.TableAdapterManager.UpdateAll(MedicalSystem.PharmacyDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MedicalSystem.PharmacyDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
